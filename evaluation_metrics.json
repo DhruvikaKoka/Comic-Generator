@@ -1,0 +1,95 @@
+{
+  "evaluation_timestamp": "2025-11-24T18:00:08.630018",
+  "comic_folder": "C:\\Users\\dhruv\\OneDrive\\Desktop\\nndl_proj\\my_comic",
+  "num_panels": 13,
+  "image_quality": {
+    "avg_sharpness": 4719.200894849728,
+    "avg_brightness": 121.92088563381095,
+    "avg_contrast": 91.63628045748034,
+    "avg_colorfulness": 156.78256305896423,
+    "sharpness_consistency": 3038.0526561918614,
+    "quality_score": 99.00017433736436
+  },
+  "character_consistency": {
+    "avg_similarity": 0.7503923165774697,
+    "consistency_score": 75.03923165774697,
+    "pairwise_similarities": [
+      0.720212753663911,
+      0.8329645086621186,
+      0.8823365422505882,
+      0.9384159711026314,
+      0.7438419599762944,
+      0.5141633938023278,
+      0.6515559202791446,
+      0.739071516755651,
+      0.781084888536518,
+      0.723586450130346,
+      0.8339603560642106,
+      0.6435135377058954
+    ],
+    "interpretation": "Good - Characters mostly consistent"
+  },
+  "story_alignment": {
+    "story_sentences": 8,
+    "generated_panels": 13,
+    "panel_story_ratio": 1.0,
+    "detected_dialogues": 4,
+    "story_elements": {
+      "characters": [
+        "detective"
+      ],
+      "actions": [
+        "chased",
+        "found"
+      ],
+      "locations": [
+        "city"
+      ]
+    },
+    "alignment_score": 100.0,
+    "interpretation": "Excellent - Comic closely follows story"
+  },
+  "dialogue_presence": {
+    "panels_with_dialogue": 13,
+    "total_panels": 13,
+    "dialogue_coverage": 100.0,
+    "avg_dialogue_box_size": 28556.384615384617,
+    "dialogue_score": 100.0,
+    "interpretation": "Excellent - All/most panels have text"
+  },
+  "panel_variety": {
+    "avg_color_entropy": 4.803999900817871,
+    "avg_edge_density": 0.12099803044245795,
+    "color_variance": 0.6746770143508911,
+    "edge_variance": 0.046606110909427324,
+    "variety_score": 26.28107137895013,
+    "interpretation": "Fair - Some visual variety"
+  },
+  "technical_quality": {
+    "avg_resolution": 463793.23076923075,
+    "avg_file_size_kb": 669.1539212740385,
+    "avg_aspect_ratio": 1.7692307692307692,
+    "resolution_consistency": 97753.09142634971,
+    "aspect_ratio_consistency": 0.3728984505704869,
+    "all_resolutions": [
+      "768x512",
+      "768x512",
+      "768x512",
+      "768x512",
+      "1024x512",
+      "1024x512",
+      "768x512",
+      "768x512",
+      "1280x512",
+      "1024x512",
+      "768x512",
+      "1280x512",
+      "768x512"
+    ]
+  },
+  "overall_score": {
+    "score": 86.18794991980464,
+    "grade": "B",
+    "interpretation": "Excellent - High quality comic generation"
+  }
+}
